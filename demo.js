@@ -91,5 +91,10 @@ function show()
   document.getElementById('myiframe').contentWindow.document.body.style.background = 'red'
 
 
+}function jump(){
+
+ window.location.href="index2.html";
+
+
 }
 // document.write(last)
