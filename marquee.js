@@ -23,7 +23,7 @@ function ccMarquee(className){
 // document.write(a.length)
  for (i = 0; i < a.length; i++) {
 
-  a[i].innerHTML="<marquee direction='down' width='100%' height='500px' loop='20' scrollamount='10'behavior='scroll' size='0.1px' onmouseover='javascript:this.stop();' onmouseout='javascript:this.start();'>"+ a[i].innerHTML+"</marquee>";
+  a[i].innerHTML="<marquee direction='down' width='100%' height='500rm' loop='20' scrollamount='10'behavior='scroll' size='0.1px' onmouseover='javascript:this.stop();' onmouseout='javascript:this.start();'>"+ a[i].innerHTML+"</marquee>";
  }
 
 }window.onload = function () {
